@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	Estado, Texto := variables.ConvietoATexto(1231)
+	Estado, Texto = variables.ConvietoATexto(1231)
 	fmt.Println(Estado)
-	fmt.Println(Texto)
+	fmt.Println(Text)
 }
