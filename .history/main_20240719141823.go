@@ -9,12 +9,10 @@ import (
 )
 
 func main() {
-	fmt.Println("---------------------FUNCION_DOS_DEVOLUCIONES---------------------")
 	Estado, Texto := variables.ConvietoATexto(1231)
 	fmt.Println(Estado)
 	fmt.Println(Texto)
 
-	fmt.Println("---------------------IF---------------------")
 	//Ve en que S.O esta parado
 	if os := runtime.GOOS; os == "linux" || os == "OS X." { //puedo asignar variables y preguntarlas en el if
 		fmt.Println("Estoy en Linux o Mac, esto es: ", os)
@@ -22,7 +20,6 @@ func main() {
 		fmt.Println("Estoy en Windows")
 	}
 
-	fmt.Println("---------------------SWITCH---------------------")
 	switch os := runtime.GOOS; os {
 	case "linux":
 		fmt.Println("Esto es Linux")
@@ -32,16 +29,11 @@ func main() {
 		fmt.Printf("%s \n", os) //Printf nos deja formatear el texto de la manera que queramos
 	}
 
-	fmt.Println("---------------------Ejercicio1---------------------")
-	numero, texto := ejercicios.Ejercicio01("100")
-	fmt.Println(numero)
-	fmt.Println(texto)
+	Numero, Texto := ejercicios.Ejercicio01("100")
+	fmt.Println(Numero)
+	fmt.Println(Texto)
 
-	numero2, texto2 := ejercicios.Ejercicio01("200")
-	fmt.Println(numero2)
-	fmt.Println(texto2)
-
-	numero_err, texto_err := ejercicios.Ejercicio01("HOLA")
-	fmt.Println(numero_err)
-	fmt.Println(texto_err)
+	Numero, Texto := ejercicios.Ejercicio01("200")
+	fmt.Println(Numero)
+	fmt.Println(Texto)
 }

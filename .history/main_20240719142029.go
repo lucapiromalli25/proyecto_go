@@ -33,15 +33,11 @@ func main() {
 	}
 
 	fmt.Println("---------------------Ejercicio1---------------------")
-	numero, texto := ejercicios.Ejercicio01("100")
-	fmt.Println(numero)
-	fmt.Println(texto)
+	Numero, Texto := ejercicios.Ejercicio01("100")
+	fmt.Println(Numero)
+	fmt.Println(Texto)
 
-	numero2, texto2 := ejercicios.Ejercicio01("200")
-	fmt.Println(numero2)
-	fmt.Println(texto2)
-
-	numero_err, texto_err := ejercicios.Ejercicio01("HOLA")
-	fmt.Println(numero_err)
-	fmt.Println(texto_err)
+	Numero2, Texto2 := ejercicios.Ejercicio01("200")
+	fmt.Println(Numero2)
+	fmt.Println(Texto2)
 }

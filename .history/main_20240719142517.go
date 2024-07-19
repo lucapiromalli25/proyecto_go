@@ -40,8 +40,4 @@ func main() {
 	numero2, texto2 := ejercicios.Ejercicio01("200")
 	fmt.Println(numero2)
 	fmt.Println(texto2)
-
-	numero_err, texto_err := ejercicios.Ejercicio01("HOLA")
-	fmt.Println(numero_err)
-	fmt.Println(texto_err)
 }
