@@ -3,10 +3,11 @@ package main
 import (
 	"fmt"
 	//"runtime"
-	"github.com/lucapiromalli25/proyecto_go/ejercicios"
+
+	//"github.com/lucapiromalli25/proyecto_go/ejercicios"
 	//"github.com/lucapiromalli25/proyecto_go/teclado"
 	//"github.com/lucapiromalli25/proyecto_go/variables"
-	//"github.com/lucapiromalli25/proyecto_go/iteraciones"
+	"github.com/lucapiromalli25/proyecto_go/iteraciones"
 )
 
 func main() {
@@ -47,11 +48,8 @@ func main() {
 	fmt.Println(texto_err)
 
 	fmt.Println("---------------------Teclado---------------------")
-	teclado.IngresoNumeros()
+	teclado.IngresoNumeros()*/
 
 	fmt.Println("---------------------Iteraciones---------------------")
-	iteraciones.Iterar()*/
-
-	fmt.Println("---------------------Ejercicio2---------------------")
-	ejercicios.Ejercicio02()
+	iteraciones.Iterar()
 }

@@ -2,15 +2,14 @@ package main
 
 import (
 	"fmt"
-	//"runtime"
+	"runtime"
+
 	"github.com/lucapiromalli25/proyecto_go/ejercicios"
-	//"github.com/lucapiromalli25/proyecto_go/teclado"
-	//"github.com/lucapiromalli25/proyecto_go/variables"
-	//"github.com/lucapiromalli25/proyecto_go/iteraciones"
+	"github.com/lucapiromalli25/proyecto_go/variables"
 )
 
 func main() {
-	/*fmt.Println("---------------------FUNCION_DOS_DEVOLUCIONES---------------------")
+	fmt.Println("---------------------FUNCION_DOS_DEVOLUCIONES---------------------")
 	Estado, Texto := variables.ConvietoATexto(1231)
 	fmt.Println(Estado)
 	fmt.Println(Texto)
@@ -45,13 +44,4 @@ func main() {
 	numero_err, texto_err := ejercicios.Ejercicio01("HOLA")
 	fmt.Println(numero_err)
 	fmt.Println(texto_err)
-
-	fmt.Println("---------------------Teclado---------------------")
-	teclado.IngresoNumeros()
-
-	fmt.Println("---------------------Iteraciones---------------------")
-	iteraciones.Iterar()*/
-
-	fmt.Println("---------------------Ejercicio2---------------------")
-	ejercicios.Ejercicio02()
 }

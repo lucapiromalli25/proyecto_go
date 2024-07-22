@@ -2,8 +2,6 @@ package main
 
 import (
 	"fmt"
-	//"runtime"
-	"github.com/lucapiromalli25/proyecto_go/ejercicios"
 	//"github.com/lucapiromalli25/proyecto_go/teclado"
 	//"github.com/lucapiromalli25/proyecto_go/variables"
 	//"github.com/lucapiromalli25/proyecto_go/iteraciones"
@@ -53,5 +51,4 @@ func main() {
 	iteraciones.Iterar()*/
 
 	fmt.Println("---------------------Ejercicio2---------------------")
-	ejercicios.Ejercicio02()
 }
