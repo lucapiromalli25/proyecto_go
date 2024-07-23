@@ -2,14 +2,11 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/lucapiromalli25/proyecto_go/files"
 	//"runtime"
-	//"github.com/lucapiromalli25/proyecto_go/ejercicios"
+	"github.com/lucapiromalli25/proyecto_go/ejercicios"
 	//"github.com/lucapiromalli25/proyecto_go/teclado"
 	//"github.com/lucapiromalli25/proyecto_go/variables"
 	//"github.com/lucapiromalli25/proyecto_go/iteraciones"
-	//"github.com/lucapiromalli25/proyecto_go/files"
 )
 
 func main() {
@@ -53,13 +50,8 @@ func main() {
 	teclado.IngresoNumeros()
 
 	fmt.Println("---------------------Iteraciones---------------------")
-	iteraciones.Iterar()
+	iteraciones.Iterar()*/
 
 	fmt.Println("---------------------Ejercicio2---------------------")
-	fmt.Println(ejercicios.Ejercicio02())*/
-
-	fmt.Println("---------------------Archivos---------------------")
-	//files.GrabarTabla()
-	//files.SumaTabla()
-	files.LeoArchivo()
+	fmt.Println(ejercicios.Ejercicio02())
 }

@@ -2,8 +2,6 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/lucapiromalli25/proyecto_go/files"
 	//"runtime"
 	//"github.com/lucapiromalli25/proyecto_go/ejercicios"
 	//"github.com/lucapiromalli25/proyecto_go/teclado"
@@ -61,5 +59,4 @@ func main() {
 	fmt.Println("---------------------Archivos---------------------")
 	//files.GrabarTabla()
 	//files.SumaTabla()
-	files.LeoArchivo()
 }

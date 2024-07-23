@@ -60,6 +60,5 @@ func main() {
 
 	fmt.Println("---------------------Archivos---------------------")
 	//files.GrabarTabla()
-	//files.SumaTabla()
-	files.LeoArchivo()
+	files.SumaTabla()
 }

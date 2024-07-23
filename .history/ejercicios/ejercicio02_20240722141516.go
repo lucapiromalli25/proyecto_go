@@ -28,5 +28,4 @@ func Ejercicio02() string {
 	for i := 1; i <= 10; i++ {
 		texto += fmt.Sprintf("%d . %d = %d \n ", numero, i, numero*i) //Sprintf devuelve una cadena de texto
 	}
-	return texto
 }

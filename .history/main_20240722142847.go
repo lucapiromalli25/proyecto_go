@@ -59,7 +59,5 @@ func main() {
 	fmt.Println(ejercicios.Ejercicio02())*/
 
 	fmt.Println("---------------------Archivos---------------------")
-	//files.GrabarTabla()
-	//files.SumaTabla()
-	files.LeoArchivo()
+	files.GrabarTabla()
 }

@@ -11,7 +11,7 @@ var numero int
 var err error
 var texto string
 
-func Ejercicio02() string {
+func Ejercicio02() {
 	scanner := bufio.NewScanner(os.Stdin)
 	for {
 		fmt.Println("Ingrese un número: ")
@@ -26,7 +26,6 @@ func Ejercicio02() string {
 		}
 	}
 	for i := 1; i <= 10; i++ {
-		texto += fmt.Sprintf("%d . %d = %d \n ", numero, i, numero*i) //Sprintf devuelve una cadena de texto
+		fmt.Printf("%d . %d = %d \n ", numero, i, numero*i)
 	}
-	return texto
 }
