@@ -60,10 +60,13 @@ func main() {
 	fmt.Println("---------------------Archivos---------------------")
 	//files.GrabarTabla()
 	//files.SumaTabla()
-	files.LeoArchivo()*/
+	files.LeoArchivo()
 
-	fmt.Println("---------------------Funciones-Anonimas---------------------")
+	//fmt.Println("---------------------Funciones-Anonimas---------------------")
 	//funciones.Calculos()
-	funciones.LlamarClosure()
+	fmt.Println("---------------------Closures---------------------")
+	funciones.LlamarClosure()*/
+	fmt.Println("---------------------Recursion---------------------")
+	funciones.Exponencia(2)
 
 }
